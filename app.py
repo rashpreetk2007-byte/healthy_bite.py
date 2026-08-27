@@ -15,6 +15,32 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.markdown("""
+<style>
+.creator {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 18px;
+    border-top: 1px solid rgba(128,128,128,0.3);
+    font-size: 14px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("# 🥗 HealthyBite AI")
+st.markdown(
+    '<div class="creator">Smart Health Analysis & Personalized Diet Planner<br>'
+    '✨ Created by <b>Rashpreet Kaur Arora</b></div>',
+    unsafe_allow_html=True
+)
 
 # ============================================================
 # CUSTOM CSS
